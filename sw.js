@@ -1,5 +1,5 @@
 // Korsika-Reiseführer – Offline-Cache (cache-first, versioniert)
-const CACHE = 'korsika-v12';
+const CACHE = 'korsika-v13';
 self.addEventListener('install', e => { self.skipWaiting(); });
 self.addEventListener('activate', e => {
   e.waitUntil(
